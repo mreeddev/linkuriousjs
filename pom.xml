@@ -8,16 +8,16 @@
 	</parent>
 	<groupId>org.webjars</groupId>
 	<artifactId>linkuriousjs</artifactId>
-	<version>1.0.7-SNAPSHOT</version>
+	<version>1.0.8-SNAPSHOT</version>
 	<name>linkuriousjs</name>
 	<description>WebJar for linkuriousjs (sigmajs fork)</description>
 	<url>http://webjars.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<upstream.version>1.0.7</upstream.version>
+		<upstream.version>1.0.8</upstream.version>
 		<upstream.directory>v${upstream.version}</upstream.directory>
-		<!-- https://github.com/Linkurious/linkurious.js/releases/download/v1.0.7/linkurious-v1.0.7.zip -->
+		<!-- https://github.com/Linkurious/linkurious.js/releases/download/v1.0.8/linkurious-v1.0.8.zip -->
 		<upstream.file>linkurious-v${upstream.version}.zip</upstream.file>
 		<upstream.url>https://github.com/Linkurious/linkurious.js/releases/download/${upstream.directory}/${upstream.file}</upstream.url>
 		<destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
